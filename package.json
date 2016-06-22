@@ -1,0 +1,32 @@
+{
+  "name": "watchface-local",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "capabilities": ["location"],
+  "private": true,
+  "appKeys": {
+	"KEY_ADDRESS":0
+   },
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface-local",
+    "uuid": "ef2e92c2-4110-443d-a40d-52c3c868145a",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
